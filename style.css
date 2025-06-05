@@ -53,6 +53,79 @@ body {
     letter-spacing: 0px;
 }
 
+.banner2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.banner2__column {
+    display: flex;
+    gap: 5px;
+    align-items: stretch;
+}
+
+.banner2__image {
+    max-width: 50%;
+}
+
+.banner2__text {
+    max-width: 50%;
+    background-color: #F4F0EA;
+    border-radius: 20px;
+}
+
+.banner2__content {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 230px;
+}
+
+.banner2__image img {
+    width: 547px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.banner2__title {
+    font-family: Georgia, sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 74px;
+    color: #2C2A29;
+    vertical-align: middle;
+}
+
+.banner2__title--top {
+    padding-top: 69px;
+    line-height: 60px;
+    font-size: 52px;
+}
+
+.banner2__subtitle {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 47px;
+}
+
+.banner2__subtitle--2 {
+    padding-top: 8px;
+}
+
+.banner2__desc {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.banner2__desc--top {
+    padding-top: 33px;
+}
+
+
 @media (max-width: 768px) {
     .banner1 {
         padding: 10px;
